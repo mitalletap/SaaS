@@ -1,10 +1,11 @@
 from flask import Flask
 from flask import request
 from flask import jsonify
-
+import json
 app=Flask(__name__)
 
-operations = [{"name":"Who the fuck are you anyway","url":"/anyway/:company/:from","fields":[{"name":"Company","field":"company"},{"name":"From","field":"from"}]}]
+input_file = open ("api_structure.json")
+operations = json.load(input_file)
 
 
 
