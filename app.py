@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import request
 from flask import jsonify
 
 app=Flask(__name__)
@@ -10,4 +11,6 @@ def index():
 
 @app.route('/hello')
 def hello():
-    return jsonify('Hello')
+    post_id = request.args.get('id')
+    return jsonify(post_id)
+
