@@ -1,0 +1,109 @@
+{
+    "services" : [
+        {
+            "name" : "What the SHIT, {}!",
+            "url" : "/what-the-shit?name=<field>",
+            "id" : 0,
+            "fields" : [
+                {
+                    "field" : "name"
+                }
+            ],
+            "data" : [
+                {
+                    "definition" : "Expressing disbelief at the Software Hardware Information and/or Technology Used",
+                    "example" : "What the SHIT is that? Python? React?"
+                }
+            ]
+        },    
+        {
+            "name" : "What is this SHIT?",
+            "url" : "/what-is-this-shit",
+            "id" : 1,
+            "data" : [
+                {
+                    "definition" : "A phrase commonly used to depict surprise and bewilderment",
+                    "example" : "What is this SHIT? I havent seen anything as useless since Internet Explorer!"
+                }
+            ]
+        },   
+        {
+            "name" : "How do I use this SHIT?",
+            "url" : "/how-do-i-use",
+            "id" : 2,
+            "data" : [
+                {
+                    "definition" : "Expressing frustration at a new technology",
+                    "example" : "Oh My God! How do I use this SHIT!"
+                }
+            ]
+        },   
+        {
+            "name" : "Can you believe this SHIT?",
+            "url" : "/can-you-believe",
+            "id" : 3,
+            "data" : [
+                {
+                    "definition" : "Excitement that your project ACTUALLY works.",
+                    "example" : "Its working! Can you believe this SHIT!"
+                }
+            ]
+        },   
+        {
+            "name" : "How do you test this SHIT?",
+            "url" : "/how-do-you-test",
+            "id" : 4,
+            "data" : [
+                {
+                    "definition" : "Frustration when you attempt to test your project.",
+                    "example" : "Hey, how do you test this SHIT? Ive never tested with this tool before."
+                }
+            ]
+        },   
+        {
+            "name" : "I've got SHIT to do?",
+            "url" : "/shit-to-do",
+            "id" : 5,
+            "data" : [
+                {
+                    "definition" : "Asserting that you have unfinished work to compelete.",
+                    "example" : "Sorry I can't come to the moveis, I've got SHIT to do."
+                }
+            ]
+        },   
+        {
+            "name" : "Same SHIT, different day",
+            "url" : "/same-shit",
+            "id" : 6,
+            "data" : [
+                {
+                    "definition" : "Dealing with the same technology on a different day.",
+                    "example" : "Here we go again. Same SHIT, different day"
+                }
+            ]
+        },   
+        {
+            "name" : "Looks like Shit",
+            "url" : "/looks-like",
+            "id" : 7,
+            "data" : [
+                {
+                    "definition" : "Primarily used when your co-worker cannot use SHIT correctly.",
+                    "example" : "Dude, what is this SHIT. Nothing is done right."
+                }
+            ]
+        },   
+        {
+            "name" : "Damn {}, You have alot of SHIT!",
+            "url" : "/alot-of",
+            "id" : 8,
+            "data" : [
+                {
+                    "definition" : "Used when someone has alot of technology.",
+                    "example" : "Servers, Programs, and a Triple Monitor Setup? You have alot of SHIT!"
+                }
+            ]
+        }
+    
+    ]
+}
