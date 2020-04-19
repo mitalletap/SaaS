@@ -1,8 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Blueprint
+
 import json
 
 app=Flask(__name__)
-from controller import EndPointcontrollers
+import controller.EndPointcontrollers
+from controller.EndPointcontrollers import mod
 
+app.register_blueprint(mod,url_prefix="/api")
 if __name__ == '__main__':
     app.run()
