@@ -1,13 +1,41 @@
 [
     {
-        "name" : "Who the fuck are you anyway {}!",
-        "url" : "/what?name=<field>",
+        "name" : "What the SHIT, {}!",
+        "url" : "/what-the-shit?name=<field>",
         "id" : 0,
         "fields" : [
             {
-                "name" : "Name",
                 "field" : "name"
+            }
+        ],
+        "data" : [
+            {
+                "definition" : "Expressing disbelief at the Software Hardware Information and/or Technology Used",
+                "example" : "What the SHIT is that? Python? React?"
+            }
+        ]
+    },    
+    {
+        "name" : "What is this SHIT?",
+        "url" : "/what-is-this-shit",
+        "id" : 1,
+        "data" : [
+            {
+                "definition" : "A phrase commonly used to depict surprise and bewilderment",
+                "example" : "What is this SHIT? I havent seen anything as useless since Internet Explorer!"
+            }
+        ]
+    },   
+    {
+        "name" : "How do I use this SHIT?",
+        "url" : "/how-do-i-use",
+        "id" : 2,
+        "data" : [
+            {
+                "definition" : "Expressing frustration at a new technology",
+                "example" : "Oh My God! How do I use this SHIT!"
             }
         ]
     }
+
 ]
