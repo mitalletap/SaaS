@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Splash from './media/Splash.png'
 import { Service } from './components/Service'
 import './App.css';
 
@@ -15,7 +16,8 @@ function App() {
 
   return (
     /* Basic Mapping */
-    <div className="App">
+    <div className="App" style={{backgroundColor: "darkRed"}}>
+      <img src={Splash} />
       <Service services={service}/>
     </div>
   );
