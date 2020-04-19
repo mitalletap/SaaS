@@ -4,7 +4,7 @@ from flask import jsonify
 import json
 
 app=Flask(__name__)
-from controllers import *
+from controller import EndPointcontrollers
 
 if __name__ == '__main__':
     app.run()
