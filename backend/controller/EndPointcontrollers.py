@@ -4,7 +4,7 @@ from app import *
 #blueprint makes it all have a similar api route, may not seem like much but it will help out a ton in the future
 #especially if you have a large project
 mod = Blueprint('api', __name__,)
-input_file = open ("api_structure.json")
+input_file = open("backend/api_structure.json")
 operations = json.load(input_file)
 
 @app.route('/')
