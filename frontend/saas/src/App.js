@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
       fetch("/operations")
       .then(res => res.json())
-      .then(data => setService(data.services))
+      .then(data => setService(data))
   }, [])
 
   console.log(service)

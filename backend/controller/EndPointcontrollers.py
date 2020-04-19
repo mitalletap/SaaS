@@ -4,6 +4,7 @@ from app import *
 input_file = open ("api_structure.json")
 operations = json.load(input_file)
 
+
 # @app.route('/')
 # def index():
 #     return jsonify('ADD SOMETHING')

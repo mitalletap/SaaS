@@ -1,5 +1,4 @@
-{
-    "services" : [
+[
         {
             "name" : "What the SHIT, {}!",
             "url" : "/what-the-shit?name=<field>",
@@ -106,4 +105,3 @@
         }
     
     ]
-}
