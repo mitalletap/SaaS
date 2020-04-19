@@ -1,16 +1,12 @@
 [
     {
-        "name" : "Who the fuck are you anyway",
-        "url" : "/anyway/:company/:from",
+        "name" : "Who the fuck are you anyway {}!",
+        "url" : "/what?name=<field>",
         "id" : 0,
         "fields" : [
             {
-                "name" : "Company",
-                "field" : "company"
-            } ,
-            { 
-                "name" : "From", 
-                "field" : "from"
+                "name" : "Name",
+                "field" : "name"
             }
         ]
     }
