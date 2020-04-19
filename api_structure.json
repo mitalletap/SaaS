@@ -1,6 +1,6 @@
 [
     {
-        "name" : "Who the fuck are you anyway",
+        "name" : "Who the fuck are you anyway {} !",
         "url" : "/anyway/:company/:from",
         "id" : 0,
         "fields" : [
