@@ -5,20 +5,19 @@ import './App.css';
 
 function App() {
   const [service, setService] = useState([]);
+  var path = window.location.pathname.substr(4, window.location.pathname.length);
+
 
   useEffect(() => {
-      fetch("/operations")
+      fetch(path)
       .then(res => res.json())
       .then(data => setService(data))
   }, [])
-
-  console.log(service)
-
+    console.log(service)
   return (
-    /* Basic Mapping */
     <div className="App" style={{backgroundColor: "darkRed"}}>
-      <img src={Splash} />
-      <Service services={service}/>
+      {/* <img src={Splash} /> */}
+      <Service services={service} />
     </div>
   );
 }
