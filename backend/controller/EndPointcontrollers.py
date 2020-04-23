@@ -1,6 +1,10 @@
 from controller import app
+from Models import Modelss
 from flask import Flask, request, jsonify,Blueprint
 import json
+import sys
+sys.path.append(".")
+
 # export FLASK_ENV=development
 
 #blueprint makes it all have a similar api route, may not seem like much but it will help out a ton in the future
@@ -81,10 +85,9 @@ def looksLikeSHIT():
 # Stop Talking Shit // also added the args
 @mod.route('/stop-talking')
 def stopTalking():
-    post_response = operations[8]["name"]
     response = request.args.get('name')
-    new_operations = [post_response.format(response), operations[8]["data"]]
-    return jsonify(new_operations) 
+    p1 = Modelss(response)
+    return jsonify(p1.__dict__) 
 
 # You Have Alot Of Shit
 @mod.route('/alot-of')
@@ -92,8 +95,6 @@ def alotOf():
     post_response = operations[8]["name"].format(request.args.get("name"))
     new_operations = [post_response, operations[8]["data"]]
     return jsonify(new_operations) 
-
-
 
 
 @mod.route('/operations')
