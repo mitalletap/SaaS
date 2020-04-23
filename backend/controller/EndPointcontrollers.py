@@ -1,4 +1,6 @@
-from app import *
+from controller import app
+from flask import Flask, request, jsonify,Blueprint
+import json
 # export FLASK_ENV=development
 
 #blueprint makes it all have a similar api route, may not seem like much but it will help out a ton in the future
